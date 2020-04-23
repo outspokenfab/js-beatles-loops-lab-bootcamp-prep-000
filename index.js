@@ -14,15 +14,8 @@ function johnLennonFacts (factsArray){
   var excitedFacts = [];
   
   while (i < factsArray.length){
-    excitedFacts.push(factsArry[i] + "!!!");
+    excitedFacts.push(factsArray[i] + "!!!");
     i++;
   }
   return  excitedFacts;
 }
-
-johnLennonFacts([
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-]);
